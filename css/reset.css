@@ -38,7 +38,7 @@ button {
 
 html,
 body {
-	min-block-size: 100%;
+	block-size: 100%;
 }
 ul,
 li {
