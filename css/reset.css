@@ -30,9 +30,8 @@ h6 {
 	font-size: inherit;
 }
 
-input,
-label,
 button {
+	background-color: transparent;
   font: inherit;
 }
 
