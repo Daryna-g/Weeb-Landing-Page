@@ -256,6 +256,8 @@ body {
 }
 .page__hero {
 }
+.page__companies {
+}
 [class*="page__"] {
 	padding-top: 80px;
 	padding-bottom: 80px;
@@ -272,6 +274,7 @@ body {
 		padding-bottom: 48px;
 	}
 }
+
 /* ------------------- */
 .hero {
 	padding-top: 104px;
@@ -303,6 +306,33 @@ body {
 		padding-top: 35px;
 	}
 	.hero__block-header {
+		margin-bottom: 48px;
+	}
+}
+
+/* ------------------- */
+.companies {
+}
+.companies__container {
+}
+.companies__title:not(:last-child) {
+	margin-bottom: 80px;
+}
+.companies__items {
+	display: flex;
+	justify-content: space-evenly;
+	gap: 24px;
+	flex-wrap: wrap;
+}
+.companies__item {
+}
+@media (max-width: 991.98px) {
+	.companies__title:not(:last-child) {
+		margin-bottom: 60px;
+	}
+}
+@media (max-width: 767.98px) {
+	.companies__title:not(:last-child) {
 		margin-bottom: 48px;
 	}
 }
