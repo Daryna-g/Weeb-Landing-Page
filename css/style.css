@@ -10,7 +10,7 @@ body {
 .wrapper {
 	display: flex;
 	flex-direction: column;
-	block-size: 100%;
+	min-height: 100%;
 	overflow: clip;
 }
 .wrapper > main {
@@ -38,7 +38,7 @@ body {
 	column-gap: 46px;
 	row-gap: 5px;
   	border-radius: 20px;
-  	background-color: rgba(225, 225, 225, 0.05);
+  	background-color: #192131;
 	box-shadow: 
 		0 25px 50px -12px rgba(0,0,0,0.25),
 		0 0 15px 0px rgba(0,0,0,0.07);
