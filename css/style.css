@@ -336,14 +336,14 @@ body {
 		margin-bottom: 48px;
 	}
 }
-/* ------------------- */
 
+/* ------------------- */
 .discover {
 }
 .discover__container {
 	display: grid;
 	align-items: start;
-	grid-template-columns: 1fr 29.296875%;
+	grid-template-columns: 1fr 29.296875%; /* 375/1280 */
 	column-gap: 80px;
 	row-gap: 48px;
 }
@@ -376,3 +376,5 @@ body {
 		justify-self: center;
 	}
 }
+
+/* ------------------- */
