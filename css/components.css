@@ -132,7 +132,6 @@
 	line-height: 1.6;
 	max-width: 760px;
 	text-wrap: balance;
-	display: inline-block;
 }
 .block-header__buttons {
 	display: flex;
