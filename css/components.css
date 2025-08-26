@@ -47,6 +47,9 @@
 .title--center {
 	text-align: center;
 }
+.title--black {
+	color: #000;
+}
 @media (max-width: 991.98px) {
 	.title {
 		font-size: 46px;
@@ -223,4 +226,12 @@
 	.block-header__line--bottom::before {
 		display: none;
 	}
+}
+
+/* ------------------ */
+
+.link-event {
+	background: url('../img/icons/arrow-purpule.svg') right no-repeat;
+	padding-right: 35px;
+	color: #9333ea;
 }
