@@ -600,6 +600,7 @@ body {
 }
 .events__items {
 	display: grid;
+	gap: 24px;
 	grid-template-columns: repeat(auto-fill, minmax(min(330px, 100%), 1fr));
 }
 .events__item {
@@ -675,5 +676,18 @@ body {
 }
 .body-item-event__link {
 }
-
+@media (max-width: 991.98px) {
+	.body-item-event__title {
+		font-size: 32px;
+	}
+}
+@media (max-width: 767.98px) {
+	.events__header {
+		flex-direction: column;
+		text-align: center;
+	}
+	.body-item-event__title {
+		font-size: 24px;
+	}
+}
 /* ------------------- */
