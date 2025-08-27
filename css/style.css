@@ -690,4 +690,43 @@ body {
 		font-size: 24px;
 	}
 }
+
 /* ------------------- */
+.footer {
+	background-color: #fff;
+	color: #0f172a;
+	
+}
+.footer__container {
+}
+.footer__body {
+	padding-block: 48px;
+	display: grid;
+	grid-template-columns: repeat(auto-fit, minmax(200px, 1fr));
+}
+.footer__logo {
+}
+.footer__nav {
+}
+.nav-footer {
+}
+.nav-footer__title {
+}
+.nav-footer__list {
+}
+.nav-footer__item {
+}
+.nav-footer__link {
+}
+.footer__bottom {
+}
+.footer__copy {
+}
+.footer__social {
+}
+.social {
+}
+.social__item {
+}
+.social__link {
+}
