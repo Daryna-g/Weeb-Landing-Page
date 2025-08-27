@@ -57,7 +57,7 @@ body {
 	z-index: 3;
 	font-size: 32px;
 	font-weight: 700;
-	line-height: 110%;
+	line-height: 1.1;
 	transition: color 0.3s;
 }
 .header__link-logo:hover {
@@ -684,6 +684,7 @@ body {
 @media (max-width: 767.98px) {
 	.events__header {
 		flex-direction: column;
+		align-items: center;
 		text-align: center;
 	}
 	.body-item-event__title {
@@ -695,38 +696,104 @@ body {
 .footer {
 	background-color: #fff;
 	color: #0f172a;
-	
+	border-top: 1px solid #CBD5E1;
 }
 .footer__container {
 }
 .footer__body {
 	padding-block: 48px;
+
+	/*
 	display: grid;
 	grid-template-columns: repeat(auto-fit, minmax(200px, 1fr));
+	*/
+
+	display: flex;
+	justify-content: space-between;
+	flex-wrap: wrap;
+
+	column-gap: 48px;
+	row-gap: 48px;
 }
 .footer__logo {
+	font-size: 32px;
+	font-weight: 700;
+	line-height: 1.1;
+	transition: color 0.3s;
+}
+.footer__logo:hover {
+	color: #aa51fe;
 }
 .footer__nav {
 }
 .nav-footer {
+	flex-basis: 210px;
 }
 .nav-footer__title {
+	text-transform: uppercase;
+	color: #94a3b8;
+	font-size: 16px;
+	font-weight: 500;
+	line-height: 1.1;
+}
+.nav-footer__title:not(:last-child) {
+	margin-bottom: 24px;
 }
 .nav-footer__list {
 }
 .nav-footer__item {
 }
+.nav-footer__item:not(:last-child) {
+	margin-bottom: 24px;
+}
 .nav-footer__link {
+	font-size: 16px;
+	line-height: 1.4;
+}
+.nav-footer__link:hover {
+	text-decoration: underline;
 }
 .footer__bottom {
+	display: flex;
+	justify-content: space-between;
+	align-items: center;
+	flex-wrap: wrap;
+	gap: 20px;
+	padding-block: 48px;
+	border-top: 1px solid #CBD5E1;
 }
 .footer__copy {
 }
 .footer__social {
 }
 .social {
+	display: flex;
+	align-items: center;
+	flex-wrap: wrap;
+	column-gap: 16px;
+	row-gap: 5px;
 }
 .social__item {
 }
 .social__link {
+}
+.social__link img {
+	vertical-align: middle;
+}
+
+@media (max-width: 1279.98px) {
+	.footer__logo {
+		text-align: center;
+		flex-basis: 100%;
+	}
+}
+@media (max-width: 520px) {
+	.nav-footer {
+		flex-basis: 100%;
+		text-align: center;
+	}
+	.footer__bottom {
+		flex-direction: column;
+		align-items: center;
+	}
 }
